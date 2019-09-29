@@ -102,35 +102,35 @@ gettyimages-522881398.jpg?itok=0g33xDwx" width="800" height="600" alt="Cute pupp
 src="https://www.youtube.com/embed/IsUsVbTj2AY">
 </iframe>
 
-<iframe  width="1366" height="766"
+<iframe  width="720" height="566"
 src="https://www.realoem.com/bmw/enUS/select">
 </iframe>
 
-<div class="container mt-3">
+<div class="container">
 
 <h2>Carousel</h2>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-  <!-- Indicators -->
+
   <ul class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ul>
 
-  <!-- The slideshow -->
+
 <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="dog1.jpg" alt="Los Angeles" width="1100" height="500">
+      <img src="dog1.jpg" alt="Los Angeles" width="720" height="480">
     </div>
     <div class="carousel-item">
-      <img src="dog2.jpg" alt="Chicago" width="1100" height="500">
+      <img src="dog2.jpg" alt="Chicago" width="720" height="480">
     </div>
     <div class="carousel-item">
-      <img src="dog3.jpg" alt="New York" width="1100" height="500">
+      <img src="dog3.jpg" alt="New York" width="480" height="480">
     </div>
   </div>
-  <!-- Left and right controls -->
+
   <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </a>
@@ -138,6 +138,43 @@ src="https://www.realoem.com/bmw/enUS/select">
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
+
+<div class="container 2">
+
+     <h3>Popover Example</h3>
+       <a href="#" data-toggle="popover" title="Today's Date" data-content="September 29th, 2019">whats inside of me?</a>
+     </div>
+
+     <script>
+     $(document).ready(function(){
+       $('[data-toggle="popover"]').popover();
+     });
+     </script>
+</div>
+
+  <h2>This is called a spinner</h2>
+
+  <div class="spinner-border"></div>
+
+  <h2>Dropdowns</h2>
+    <div class="dropdown">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Select STATE
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">New York</a>
+        <a class="dropdown-item" href="#">New Jersey</a>
+        <a class="dropdown-item" href="#">New Mexico</a>
+      </div>
+    </div>
+
+    <h2>Collapsible Menu</h2>
+     <p>Click on the button below to show what it is hiding.</p>
+     <a href="#demo" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Click me if you dare</button>
+     <div id="demo" class="collapse">
+       Sorry. You did not win the prize.
+     </div>
+
 
 </div>
 
